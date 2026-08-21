@@ -5,4 +5,9 @@
       "$HOME/.local/share/flatpak/exports/share"
     ];
   };
+
+  environment.variables = {
+    EDITOR = "micro";
+    VISUAL = "micro";
+  };
 }
