@@ -11,6 +11,7 @@
     ./ghostty
     ./git
     ./mangohud
+    ./micro
     ./niri
     ./noctalia
     ./prism
