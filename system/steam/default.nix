@@ -9,4 +9,5 @@
   };
 
   programs.gamemode.enable = true;
+  services.resolved.enable = true;
 }
