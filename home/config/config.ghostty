@@ -1,0 +1,2 @@
+command = /etc/profiles/per-user/akseli/bin/fish --login --interactive
+font-family = "JetBrains Mono"
