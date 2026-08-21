@@ -1,2 +1,3 @@
 command = /etc/profiles/per-user/akseli/bin/fish --login --interactive
 font-family = "JetBrains Mono"
+shell-integration-features = ssh-env,ssh-terminfo
