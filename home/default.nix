@@ -17,5 +17,6 @@
 
   imports = [
     ./programs
+    ./userservices
   ];
 }
