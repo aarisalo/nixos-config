@@ -14,7 +14,7 @@
     ./micro
     ./niri
     ./noctalia
-    ./prism
+    # ./prism
     ./spicetify
     # ./spotify
     ./vesktop

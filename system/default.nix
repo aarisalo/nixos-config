@@ -7,6 +7,7 @@
     ./lact
     ./niri
     ./piper
+    ./prism
     ./steam
     ./variables
     ./xwayland

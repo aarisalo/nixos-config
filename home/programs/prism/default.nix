@@ -1,5 +1,10 @@
 { config, pkgs, ... }:
 
 {
-  programs.prismlauncher.enable = true;
+  home.packages = with pkgs; [
+  (prismlauncher.override {
+    jdks = [ zulu25 ];
+  })
+];
+
 }
