@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  services.flatpak.packages = [
+  /*services.flatpak.packages = [
     "com.discordapp.Discord"
-  ];
+  ];*/
 }

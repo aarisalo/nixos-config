@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./discord
+    # ./discord
     ./dolphin
     ./easyeffects
     ./firefox
@@ -17,6 +17,7 @@
     ./prism
     ./spicetify
     # ./spotify
+    ./vesktop
     ./vscode
   ];
 }
