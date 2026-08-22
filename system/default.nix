@@ -3,7 +3,6 @@
 {
   imports = [
     ./greeter
-    ./java
     ./lact
     ./niri
     ./piper
