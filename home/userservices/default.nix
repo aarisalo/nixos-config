@@ -12,7 +12,7 @@
     Type = "simple";
 
     # Wait 5 seconds before starting EasyEffects
-    ExecStartPre = "${pkgs.coreutils}/bin/sleep 5";
+    ExecStartPre = "${pkgs.coreutils}/bin/sleep 2";
 
     ExecStart = "${pkgs.easyeffects}/bin/easyeffects --service-mode --hide-window";
     ExecStop = "${pkgs.easyeffects}/bin/easyeffects --quit";
