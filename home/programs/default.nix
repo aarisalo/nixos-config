@@ -13,6 +13,7 @@
     ./micro
     ./niri
     ./noctalia
+    ./obsidian
     ./spicetify
     ./vesktop
     ./vscode
