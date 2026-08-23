@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./ark
     ./greeter
     ./lact
     ./niri

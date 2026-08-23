@@ -12,5 +12,6 @@
       "inode/directory" = [ "org.kde.dolphin.desktop" ];
     };
   };
+
   xdg.configFile."kdeglobals".source = ../../config/kdeglobals;
 }
