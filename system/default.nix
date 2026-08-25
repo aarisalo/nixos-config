@@ -5,6 +5,7 @@
     ./ark
     ./greeter
     ./lact
+    ./lutris
     ./niri
     ./piper
     ./prism
