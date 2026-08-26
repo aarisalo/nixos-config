@@ -27,6 +27,10 @@
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nix-cachyos-kernel = {
+      url = "github:xddxdd/nix-cachyos-kernel/release";
+    };
   };
 
   outputs =
@@ -38,6 +42,7 @@
       noctalia-greeter,
       nix-flatpak,
       spicetify-nix,
+      nix-cachyos-kernel,
       ...
     }:
     {
@@ -54,6 +59,12 @@
           home-manager.nixosModules.home-manager
           noctalia.nixosModules.default
           noctalia-greeter.nixosModules.default
+          (
+            { pkgs, ... }:
+            {
+              nixpkgs.overlays = [ nix-cachyos-kernel.overlays.pinned ];
+            }
+          ) 
 
           {
             home-manager.useGlobalPkgs = true;
