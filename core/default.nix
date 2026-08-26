@@ -8,8 +8,10 @@
     ./devices
     ./filesystem
     ./graphics
+    ./hibernation
     ./network
     ./nix
     ./security
+    ./swap
   ];
 }
