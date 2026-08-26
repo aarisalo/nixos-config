@@ -7,7 +7,6 @@ output "DP-1" {
     mode "2560x1440@239.958"
     scale 1.0
     transform "normal"
-    position x=1920 y=0
     variable-refresh-rate on-demand=true
     focus-at-startup
 }
@@ -16,7 +15,6 @@ output "HDMI-A-1" {
     mode "1920x1080@60.000"
     scale 1.0
     transform "normal"
-    position x=1200 y=0
 }
 
 window-rule {
@@ -34,8 +32,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id="com.mitchellh.ghostty"
-    match title="btop"
+    match at-startup=true app-id="com.mitchellh.ghostty"
     open-on-output "Acer Technologies G246HYL LZ5EE0032410"
 }
 
