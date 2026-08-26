@@ -3,6 +3,7 @@
 {
   imports = [
     ./ark
+    ./btop
     ./greeter
     ./lact
     ./lutris

@@ -1,5 +1,7 @@
 spawn-at-startup "noctalia"
 spawn-at-startup "wayland-satellite"
+spawn-at-startup "vesktop"
+spawn-at-startup "ghostty" "-e" "btop"
 
 output "DP-1" {
     mode "2560x1440@239.958"
@@ -14,7 +16,7 @@ output "HDMI-A-1" {
     mode "1920x1080@60.000"
     scale 1.0
     transform "normal"
-    position x=430 y=0
+    position x=1200 y=0
 }
 
 window-rule {
@@ -24,6 +26,17 @@ window-rule {
 
 window-rule {
     match app-id="vesktop"
+    default-column-width { proportion 0.5; }
+    open-on-output "Acer Technologies G246HYL LZ5EE0032410"
+    open-maximized false
+    open-maximized-to-edges false
+    open-fullscreen false
+    open-focused false
+}
+
+window-rule {
+    match app-id="com.mitchellh.ghostty"
+    match title="btop"
     open-on-output "Acer Technologies G246HYL LZ5EE0032410"
 }
 
