@@ -36,6 +36,12 @@ window-rule {
     open-on-output "Acer Technologies G246HYL LZ5EE0032410"
 }
 
+window-rule {
+    match app-id=r#"(?i)minecraft"#
+    match app-id=r#"^steam_app_[0-9]+$"#
+    variable-refresh-rate true
+}
+
 cursor {
     xcursor-theme "DMZ-White"
     xcursor-size 32
