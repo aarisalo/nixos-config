@@ -37,7 +37,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id=r#"(?i)minecraft"#
+    //match app-id=r#"(?i)minecraft"#
     match app-id=r#"^steam_app_[0-9]+$"#
     variable-refresh-rate true
 }
