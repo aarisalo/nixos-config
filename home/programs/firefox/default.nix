@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  services.flatpak.packages = [
-    "org.mozilla.firefox"
+  home.packages = [
+    pkgs.firefox
   ];
 }
