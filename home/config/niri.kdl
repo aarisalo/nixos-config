@@ -1,6 +1,6 @@
 spawn-at-startup "noctalia"
 spawn-at-startup "wayland-satellite"
-spawn-at-startup "vesktop"
+//spawn-at-startup "vesktop"
 spawn-at-startup "ghostty" "-e" "btop"
 
 output "DP-1" {
