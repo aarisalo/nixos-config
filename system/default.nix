@@ -4,6 +4,7 @@
   imports = [
     ./ark
     ./btop
+    ./crossmacro
     ./greeter
     ./lact
     ./lutris
