@@ -14,6 +14,7 @@
         hf-repo = "unsloth/Qwen3.8-27B-GGUF";
         hf-file = "Qwen3.8-27B-UD-Q4_K_M.gguf";
         alias = "unsloth/Qwen3.8-27B-GGUF";
+        ctx-size = "131072";
         temp = "1.0";
         top-p = "0.95";
         top-k = "20";
@@ -26,6 +27,7 @@
         hf-repo = "Qwen/Qwen2.5-Coder-3B-Instruct-GGUF";
         hf-file = "qwen2.5-coder-3b-instruct-q8_0.gguf";
         alias = "Qwen/Qwen2.5-Coder-3B-Instruct-GGUF";
+        ctx-size = "8192";
         temp = "0.7";
         top-p = "0.8";
         top-k = "20";
