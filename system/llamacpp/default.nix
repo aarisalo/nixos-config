@@ -38,7 +38,6 @@
     environment = {
       XDG_CACHE_HOME = "/var/cache/llama-cpp";
       MESA_SHADER_CACHE_DIR = "/var/cache/llama-cpp";
-      LLAMA_API_KEY = "llamacpp4mMit15nr73z4p5nmZ7271gKrfOfB6sF";
     };
   };
 }
