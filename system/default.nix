@@ -7,6 +7,7 @@
     ./crossmacro
     ./greeter
     ./lact
+    ./llamacpp
     ./lutris
     ./niri
     ./piper
