@@ -31,6 +31,11 @@
     nix-cachyos-kernel = {
       url = "github:xddxdd/nix-cachyos-kernel/release";
     };
+
+    crossmacro = {
+      url = "github:alper-han/CrossMacro";
+    };
+
   };
 
   outputs =
@@ -43,6 +48,7 @@
       nix-flatpak,
       spicetify-nix,
       nix-cachyos-kernel,
+      crossmacro,
       ...
     }:
     {
@@ -59,6 +65,7 @@
           home-manager.nixosModules.home-manager
           noctalia.nixosModules.default
           noctalia-greeter.nixosModules.default
+          crossmacro.nixosModules.default
           (
             { pkgs, ... }:
             {
