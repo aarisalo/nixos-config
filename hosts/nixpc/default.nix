@@ -35,6 +35,7 @@
       "networkmanager"
       "wheel"
       "libvirtd"
+      "input"
     ];
   };
 
