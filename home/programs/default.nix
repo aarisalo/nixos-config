@@ -4,6 +4,7 @@
   imports = [
     ./dolphin
     ./easyeffects
+    ./exiled-exchange-2-desktop
     ./firefox
     ./fish
     ./flatpak

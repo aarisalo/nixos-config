@@ -2,9 +2,11 @@
 
 {
   imports = [
+    ./appimage
     ./ark
     ./btop
     ./crossmacro
+    ./exiled-exchange-2
     ./greeter
     ./lact
     ./llamacpp
