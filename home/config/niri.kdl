@@ -48,6 +48,7 @@ cursor {
 }
 
 binds {
+    Super+C { spawn "qalculate-qt"; }
     Super+Return { spawn "ghostty"; }
     Super+Space { spawn-sh "noctalia msg panel-toggle launcher"; }
 

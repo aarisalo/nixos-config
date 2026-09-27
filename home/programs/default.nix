@@ -15,6 +15,7 @@
     ./niri
     ./noctalia
     ./obsidian
+    ./qalculate
     ./spicetify
     ./vesktop
     ./vscode
