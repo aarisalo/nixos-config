@@ -7,6 +7,7 @@
     ./btop
     ./crossmacro
     ./exiled-exchange-2
+    ./gamescope
     ./greeter
     ./lact
     ./llamacpp
