@@ -6,6 +6,7 @@
     ./ark
     ./btop
     ./crossmacro
+    ./deadlock-mod
     ./exiled-exchange-2
     ./gamescope
     ./greeter
