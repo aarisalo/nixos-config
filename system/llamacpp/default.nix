@@ -21,7 +21,7 @@
         ctx-size = "131072";
         cache-type-k = "q8_0";
         cache-type-v = "q5_1";
-        no-mmproj = "true";
+        # no-mmproj = "true";
         temp = "1.0";
         top-p = "0.95";
         top-k = "20";
