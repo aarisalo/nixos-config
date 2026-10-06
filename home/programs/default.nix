@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./artix-games-launcher
     ./dolphin
     ./easyeffects
     ./exiled-exchange-2-desktop

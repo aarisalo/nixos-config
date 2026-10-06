@@ -4,6 +4,7 @@
   imports = [
     ./appimage
     ./ark
+    ./artix-games-launcher
     ./btop
     ./crossmacro
     ./deadlock-mod
