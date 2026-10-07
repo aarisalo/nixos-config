@@ -17,6 +17,12 @@ output "HDMI-A-1" {
     transform "normal"
 }
 
+gestures {
+    hot-corners {
+        off
+    }
+}
+
 window-rule {
     geometry-corner-radius 0
     clip-to-geometry true
