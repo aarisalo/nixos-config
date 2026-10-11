@@ -15,6 +15,8 @@
     ./llamacpp
     ./lutris
     ./niri
+    ./node
+    ./pi-agent
     ./piper
     ./prism
     ./r2modman
