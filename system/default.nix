@@ -19,6 +19,7 @@
     ./pi-agent
     ./piper
     ./prism
+    ./python
     ./r2modman
     ./steam
     ./variables
