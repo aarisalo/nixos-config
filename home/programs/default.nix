@@ -11,6 +11,7 @@
     ./flatpak
     ./ghostty
     ./git
+    ./libreoffice
     ./mangohud
     ./micro
     ./niri
