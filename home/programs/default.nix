@@ -17,6 +17,7 @@
     ./niri
     ./noctalia
     ./obsidian
+    ./postman
     ./qalculate
     ./spicetify
     ./vesktop
