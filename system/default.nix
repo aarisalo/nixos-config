@@ -6,6 +6,7 @@
     ./ark
     ./artix-games-launcher
     ./btop
+    ./bubblewrap
     ./crossmacro
     ./deadlock-mod
     ./exiled-exchange-2
