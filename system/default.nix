@@ -24,6 +24,7 @@
     ./r2modman
     ./steam
     ./variables
+    ./wl-clipboard
     ./xwayland
   ];
 }
