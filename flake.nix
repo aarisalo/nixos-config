@@ -4,6 +4,8 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
+    chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable"; # For CachyOS kernel
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -28,10 +30,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    nix-cachyos-kernel = {
-      url = "github:xddxdd/nix-cachyos-kernel/release";
-    };
-
     crossmacro = {
       url = "github:alper-han/CrossMacro";
     };
@@ -42,12 +40,12 @@
     inputs@{
       self,
       nixpkgs,
+      chaotic,
       home-manager,
       noctalia,
       noctalia-greeter,
       nix-flatpak,
       spicetify-nix,
-      nix-cachyos-kernel,
       crossmacro,
       ...
     }:
@@ -62,16 +60,11 @@
         modules = [
           ./hosts/nixpc
           ./system
+          chaotic.nixosModules.default
           home-manager.nixosModules.home-manager
           noctalia.nixosModules.default
           noctalia-greeter.nixosModules.default
           crossmacro.nixosModules.default
-          (
-            { pkgs, ... }:
-            {
-              nixpkgs.overlays = [ nix-cachyos-kernel.overlays.pinned ];
-            }
-          ) 
 
           {
             home-manager.useGlobalPkgs = true;
