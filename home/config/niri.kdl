@@ -38,6 +38,15 @@ window-rule {
 }
 
 window-rule {
+    match app-id="Spotify"
+    open-on-output "Acer Technologies G246HYL LZ5EE0032410"
+    open-maximized false
+    open-maximized-to-edges false
+    open-fullscreen false
+    open-focused false
+}
+
+window-rule {
     match at-startup=true app-id="com.mitchellh.ghostty"
     open-on-output "Acer Technologies G246HYL LZ5EE0032410"
 }
