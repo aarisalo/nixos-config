@@ -34,6 +34,11 @@
       url = "github:alper-han/CrossMacro";
     };
 
+    hyperline = {
+      url = "github:paralin/hyperline-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
   };
 
   outputs =
@@ -47,6 +52,7 @@
       nix-flatpak,
       spicetify-nix,
       crossmacro,
+      hyperline,
       ...
     }:
     {
@@ -65,6 +71,7 @@
           noctalia.nixosModules.default
           noctalia-greeter.nixosModules.default
           crossmacro.nixosModules.default
+          hyperline.nixosModules.default
 
           {
             home-manager.useGlobalPkgs = true;

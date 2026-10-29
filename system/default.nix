@@ -12,6 +12,7 @@
     ./exiled-exchange-2
     ./gamescope
     ./greeter
+    ./hyperline
     ./lact
     ./llamacpp
     ./lutris
