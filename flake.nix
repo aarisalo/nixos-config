@@ -4,7 +4,10 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
-    chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable"; # For CachyOS kernel
+    # Pinned to the last nyxpkgs revision shipping linux_cachyos 7.2.11 — the
+    # 7.3.0 bump (nyxpkgs commit 7cd9c90) causes a power draw regression.
+    # Revert to `nyxpkgs-unstable` once it's fixed upstream.
+    chaotic.url = "github:chaotic-cx/nyx/b853075364de850a451311abae8c9d96cdf55062"; # For CachyOS kernel
 
     home-manager = {
       url = "github:nix-community/home-manager";
