@@ -1,5 +1,0 @@
-# The Hyperline binary self-updates in place at runtime; keep the 200MB
-# download out of git. install.sh and README.txt are tracked for reference.
-hyperline-linux-amd64/hyperline
-hyperline-linux-amd64/hyperline.next
-*.tar.gz

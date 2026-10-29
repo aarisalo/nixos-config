@@ -11,7 +11,6 @@
     ./flatpak
     ./ghostty
     ./git
-    ./hyperline-deadlock
     ./libreoffice
     ./mangohud
     ./micro
