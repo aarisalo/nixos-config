@@ -20,6 +20,7 @@
     ./postman
     ./qalculate
     ./spicetify
+    ./thunderbird
     ./vesktop
     ./vscode
   ];
