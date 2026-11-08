@@ -18,6 +18,7 @@
     ./noctalia
     ./obsidian
     ./postman
+    ./protonplus
     ./qalculate
     ./spicetify
     ./thunderbird
