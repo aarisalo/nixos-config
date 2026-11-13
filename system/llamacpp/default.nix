@@ -33,19 +33,6 @@
         reasoning = "on";
         reasoning-effort = "medium"; 
       };
-      /*"Qwen2.5-Coder-1.5B-Instruct" = {
-        # verbose = "true";
-        hf-repo = "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF";
-        hf-file = "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf";
-        alias = "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF";
-        ctx-size = "8192";
-        temp = "0.7";
-        top-p = "0.8";
-        top-k = "20";
-        min-p = "0.0";
-        presence-penalty = "1.5";
-        repeat-penalty = "1.0";
-      };*/
     };
   };
 

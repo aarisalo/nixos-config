@@ -42,6 +42,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    deadlock-mod-manager = {
+      url = "github:deadlock-mod-manager/deadlock-mod-manager";
+    };
   };
 
   outputs =
@@ -56,6 +59,7 @@
       spicetify-nix,
       crossmacro,
       hyperline,
+      deadlock-mod-manager,
       ...
     }:
     {
