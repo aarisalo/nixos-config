@@ -1,16 +1,11 @@
 { pkgs, inputs, ... }:
 {
   environment.systemPackages = [
-    inputs.deadlock-mod-manager.packages.${pkgs.stdenv.hostPlatform.system}.nightly
+    inputs.grimoire.packages.${pkgs.system}.default
   ];
 
   nix.settings = {
-    substituters = [
-      "https://deadlock-mod-manager.cachix.org"
-    ];
-
-    trusted-public-keys = [
-      "deadlock-mod-manager.cachix.org-1:wUjtzL6yN2i9zTq1YrXHBr0mx3LP7tBGsosk3N+/A/M="
-    ];
+    extra-substituters = [ "https://grimoire.cachix.org" ];
+    extra-trusted-public-keys = [ "grimoire.cachix.org-1:5Y9dQ9wk9z4BsOnkv9t8ULcsnnaJ1zSMnzOd1dV5QbA=" ];
   };
 }

@@ -42,8 +42,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    deadlock-mod-manager = {
-      url = "github:deadlock-mod-manager/deadlock-mod-manager";
+    grimoire = {
+      url = "github:Slush97/grimoire/stable";
     };
   };
 
@@ -59,7 +59,7 @@
       spicetify-nix,
       crossmacro,
       hyperline,
-      deadlock-mod-manager,
+      grimoire,
       ...
     }:
     {
