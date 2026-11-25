@@ -25,6 +25,7 @@
     ./spicetify
     ./thunderbird
     ./vesktop
+    ./vintagestory
     ./vscode
   ];
 }
