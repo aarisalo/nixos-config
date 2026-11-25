@@ -10,7 +10,9 @@
     ./fish
     ./flatpak
     ./ghostty
+    ./gdre-tools
     ./git
+    ./godotsteam
     ./libreoffice
     ./mangohud
     ./micro
