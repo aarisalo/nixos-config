@@ -22,7 +22,7 @@
     };
 
     nix-flatpak = {
-      url = "github:gmodena/nix-flatpak/?ref=latest";
+      url = "github:gmodena/nix-flatpak/v0.8.0";
     };
 
     spicetify-nix = {

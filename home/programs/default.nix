@@ -23,6 +23,7 @@
     ./protonplus
     ./qalculate
     ./spicetify
+    ./steam
     ./thunderbird
     ./vesktop
     ./vintagestory

@@ -29,12 +29,14 @@
 
   console.keyMap = "fi";
 
+  hardware.enableRedistributableFirmware = true;
+  hardware.cpu.amd.updateMicrocode = true;
+  
   users.users.akseli = {
     isNormalUser = true;
     extraGroups = [
       "networkmanager"
       "wheel"
-      "libvirtd"
       "input"
     ];
   };

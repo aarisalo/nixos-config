@@ -12,8 +12,11 @@ configuration for the user `akseli`.
 - `system/` — system-profile modules.
 - home-manager — configured **inline in `flake.nix`** (`useGlobalPkgs`,
   `useUserPackages`, user `akseli`), importing `home/`.
-- Third-party NixOS modules (noctalia, noctalia-greeter, crossmacro) and the
-  cachyos kernel overlay, also wired in `flake.nix`.
+- Third-party NixOS modules (noctalia, noctalia-greeter, crossmacro, hyperline,
+  grimoire) wired in `flake.nix`. The `chaotic` input provides nyx's
+  package-manager modules only — the cachyos kernel itself comes from
+  nixpkgs via `boot.kernelPackages = pkgs.linuxPackages_cachyos` in
+  `core/boot` (see "Kernel (cachyos)" below).
 
 New flake inputs go in `flake.nix`; `inputs` is passed through `specialArgs`
 (and `extraSpecialArgs` for home-manager), so any module can reference
